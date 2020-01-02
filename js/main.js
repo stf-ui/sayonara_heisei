@@ -1,5 +1,5 @@
-var $gradientStop1 = document.querySelector('#js-gradient__stop-1');
-var $gradientStop2 = document.querySelector('#js-gradient__stop-2');
+var $gradientStop1 = document.querySelector('#js-bg-grad-1');
+var $gradientStop2 = document.querySelector('#js-bg-grad-2');
 
 window.addEventListener('scroll', function() {
   var scrollTop = window.pageYOffset;
@@ -17,9 +17,6 @@ window.addEventListener('scroll', function() {
 });
 
 // wavifyAnimation
-
-/** jQueryの処理 */
-
 
 jQuery(function($){
     // コード
