@@ -3,16 +3,16 @@ var $gradientStop2 = document.querySelector('#js-gradient__stop-2');
 
 window.addEventListener('scroll', function() {
   var scrollTop = window.pageYOffset;
-  var val = scrollTop / 10;
+  var val = scrollTop / 20;
   var hue1 = (val) % 360;
-  var hue2 = (val + 60) % 360;
+  var hue2 = (val + 45) % 360;
   
   TweenMax.set($gradientStop1, {
-    stopColor: 'hsl('+hue1+', 100%, 60%)'
+    stopColor: 'hsl('+hue1+', 100%, 45%)'
   });
 
   TweenMax.set($gradientStop2, {
-    stopColor: 'hsl('+hue2+', 100%, 60%)'
+    stopColor: 'hsl('+hue2+', 100%, 45%)'
   });
 });
 
