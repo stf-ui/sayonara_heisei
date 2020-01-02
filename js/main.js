@@ -5,14 +5,14 @@ window.addEventListener('scroll', function() {
   var scrollTop = window.pageYOffset;
   var val = scrollTop / 10;
   var hue1 = (val) % 360;
-  var hue2 = (val + 55) % 360;
+  var hue2 = (val + 65) % 360;
   
   TweenMax.set($gradientStop1, {
-    stopColor: 'hsl('+hue1+', 100%, 55%)'
+    stopColor: 'hsl('+hue1+', 100%, 65%)'
   });
 
   TweenMax.set($gradientStop2, {
-    stopColor: 'hsl('+hue2+', 100%, 55%)'
+    stopColor: 'hsl('+hue2+', 100%, 65%)'
   });
 });
 
