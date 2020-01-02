@@ -19,7 +19,7 @@ body a {
     text-decoration: none;
 }
 body a:hover {
-    transform: scale(1.08);
+    transform: scale(1.3);
 }
 header {
     position: fixed;
@@ -31,8 +31,14 @@ header {
     color: #fff;
     text-align: left;
 }
-header h1 {
-    position: relative;
+header h1 p {
+    position: absolute;
+    width: 230px;
+    font-size: .4em;
+    letter-spacing: .3em;
+    left: 20px;
+    top: 190px;
+    font-family: 'M+ Type-1 (general-j) Thin';
 }
 footer {
     position: fixed;
