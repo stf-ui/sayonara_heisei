@@ -38,7 +38,8 @@ header h1 p {
     letter-spacing: .3em;
     left: 20px;
     top: 190px;
-    font-family: 'M+ Type-1 (general-j) Thin';
+    font-weight: lighter;
+    font-family: none;
 }
 footer {
     position: fixed;
