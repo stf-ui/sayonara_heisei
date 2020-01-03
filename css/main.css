@@ -2,6 +2,9 @@
 .p-relative {
     position: relative;
 }
+.d-flex {
+  display: flex;
+}
 
 /* body,header,footer */
 body{
