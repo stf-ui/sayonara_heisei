@@ -116,10 +116,10 @@ footer .logo-reverse {
 }
 
 /* HumburgarMenu */
-header .select-select-wrap {
+header .select-wrap {
   text-align: center;
 }
-header .select-select-wrap .icon_link_tab span{
+header .select-wrap .icon_link_tab span{
   display: block;
   font-size: .3em;
 }
