@@ -60,16 +60,16 @@ footer .logo-reverse {
 }
 .bg-grad {
     position: fixed;
+    z-index: -3;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: -3;
 }
 .bg-wave {
+    position: fixed;
     z-index: -2;
     height: 100vh;
     width: 100%;
-    position: fixed;
     top: 30%;
     left: 19px;
     opacity: .2;
@@ -86,6 +86,7 @@ footer .logo-reverse {
 /* contents */
 #contents {
     position: relative;
+    z-index: -1;
     width: 90%;
     min-height: 950px;
     overflow: auto;
@@ -94,7 +95,6 @@ footer .logo-reverse {
     padding: 20px;
     text-align: left;
     color: #fff;
-    z-index: -1;
 }
 #contents .songs {
     text-align: center;
@@ -137,12 +137,12 @@ header .select-wrap .icon_link_tab span{
 }
 .select-wrap .icon_link_tab.open {
   position: absolute;
+  z-index: 999;
   right: 0;
   transition: 0.3s ease-out;
   background-color: #00ccc3;
   height: 100vh;
   width: 90%;
-  z-index: 1;
   border-radius: 50px 0 0 0;
   opacity: .9;
 }
