@@ -86,6 +86,7 @@ footer .logo-reverse {
 
 /* contents */
 #contents {
+    position: relative;
     width: 90%;
     min-height: 950px;
     overflow: auto;
@@ -95,6 +96,7 @@ footer .logo-reverse {
     text-align: left;
     color: #fff;
     z-index: -1;
+    position: relative;
 }
 #contents .songs {
     text-align: center;
