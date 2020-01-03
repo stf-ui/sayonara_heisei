@@ -12,9 +12,9 @@ body{
 }
 body a {
     display: inline-block;
-	padding: 0.3em;
-	transition: .3s;
-	transform: scale(1);
+    padding: 0.3em;
+    transition: .3s;
+    transform: scale(1);
     color: #fff;
     text-decoration: none;
 }
@@ -116,21 +116,28 @@ footer .logo-reverse {
 }
 
 /* HumburgarMenu */
-.wrap .fas {
+header .select-select-wrap {
+  text-align: center;
+}
+header .select-select-wrap span{
+  display: block;
+  font-size: .3em;
+}
+.select-wrap .fas {
   position: absolute;
   top: 0;
   right: 30px;
 }
-.wrap .fas.fa-times {
+.select-wrap .fas.fa-times {
   top: 20px;
 }
-.wrap .icon_link_tab {
+.select-wrap .icon_link_tab {
   position: absolute;
   top: 0;
   right: -90%;
   transition: 0.3s ease-out;
 }
-.wrap .icon_link_tab.open {
+.select-wrap .icon_link_tab.open {
   position: absolute;
   right: 0;
   transition: 0.3s ease-out;
