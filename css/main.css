@@ -125,7 +125,7 @@ footer .logo-reverse {
 .wrap .icon_link_tab {
   position: absolute;
   top: 0;
-  right: -600px;
+  right: -90%;
   transition: 0.3s ease-out;
 }
 .wrap .icon_link_tab.open {
