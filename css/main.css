@@ -142,7 +142,7 @@ header .select-wrap .icon_link_tab span{
   background-color: #00ccc3;
   height: 100vh;
   width: 90%;
-  z-index: 0;
+  z-index: 1;
   border-radius: 50px 0 0 0;
   opacity: .9;
 }
