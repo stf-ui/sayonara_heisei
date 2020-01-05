@@ -31,10 +31,10 @@ header {
     width: 100%;
     height: 45px;
     padding: 10px;
-    color: #fff;
     text-align: left;
+    z-index: 999;
 }
-header h1 p {
+h1 p {
     position: absolute;
     width: 230px;
     font-size: .4em;
@@ -43,6 +43,7 @@ header h1 p {
     top: 190px;
     font-weight: lighter;
     font-family: none;
+    color: #fff;
 }
 footer {
     position: fixed;
@@ -60,7 +61,7 @@ footer .logo-reverse {
 }
 .bg-grad {
     position: fixed;
-    z-index: -1;
+    z-index: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -77,6 +78,11 @@ footer .logo-reverse {
     left: 19px;
     opacity: .2;
 }
+.title-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .img-float {
     animation: floatAnimation 2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate;
 }
@@ -88,8 +94,8 @@ footer .logo-reverse {
 
 /* contents */
 #contents {
-    position: relative;
     z-index: 2;
+    position: relative;
     width: 90%;
     min-height: 950px;
     overflow: auto;
@@ -118,34 +124,42 @@ footer .logo-reverse {
 
 /* HumburgarMenu */
 header .select-wrap {
-  text-align: center;
+    text-align: center;
+    color: #fff;
 }
 header .select-wrap .icon_link_tab span{
-  display: block;
-  font-size: .7em;
+    display: block;
+    font-size: .9em;
+    padding: .4em;
+}
+.open-contents-style {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 .select-wrap .fas {
-  position: absolute;
-  top: 0;
-  right: 30px;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 1.5em;
 }
 .select-wrap .fas.fa-times {
-  top: 20px;
+    top: 13px;
 }
 .select-wrap .icon_link_tab {
-  position: absolute;
-  top: 0;
-  right: -90%;
-  transition: 0.3s ease-out;
+    position: absolute;
+    top: 0;
+    right: -90%;
+    transition: 0.3s ease-out;
 }
 .select-wrap .icon_link_tab.open {
-  position: absolute;
-  z-index: 999;
-  right: 0;
-  transition: 0.3s ease-out;
-  background-color: #00ccc3;
-  height: 100vh;
-  width: 90%;
-  border-radius: 50px 0 0 0;
-  opacity: .9;
+    position: absolute;
+    right: 0;
+    transition: 0.3s ease-out;
+    background-color: #00ccc3;
+    height: 100vh;
+    width: 70%;
+    border-radius: 50px 0 0 0;
+    opacity: .8;
 }
