@@ -121,6 +121,12 @@ footer .logo-reverse {
     font-size: .9em;
     letter-spacing: .3em;
 }
+#contents .songs section.sankou-site {
+    margin-top: 40px;
+}
+#contents .songs section.sankou-site div{
+    opacity: .8;
+}
 
 /* HumburgarMenu */
 header .select-wrap {
