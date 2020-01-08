@@ -12,6 +12,7 @@ body{
     padding: 50px 10px 50px 10px;
     background-color: #332426;
     font-family: 'Kosugi Maru', sans-serif;
+    font-size: 100%;
 }
 body a {
     display: inline-block;
