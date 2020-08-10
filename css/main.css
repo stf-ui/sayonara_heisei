@@ -5,7 +5,9 @@
 .d-flex {
   display: flex;
 }
-
+.pc-dnone {
+    display: none;
+}
 /* body,header,footer */
 body{
     margin: 20px;
@@ -173,6 +175,9 @@ header .select-wrap .icon_link_tab span{
 
 /* 以下、スマホ用のデザイン */
 @media screen and (max-width: 768px) {
+    .pc-dnone {
+        display: block;
+    }
     h1 p {
         display: none;
     }
@@ -180,13 +185,13 @@ header .select-wrap .icon_link_tab span{
         width: 100%;
     }
     #contents .songs {
-        margin-top: 50%;
+        margin-top: 85%;
     }
     #contents .songs h2 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     #contents .songs h3 {
-        font-size: 1.5em;
+        font-size: .8em;
         letter-spacing: .5em;
     }
  }
