@@ -174,7 +174,7 @@ header .select-wrap .icon_link_tab span{
 }
 
 /* 以下、スマホ用のデザイン */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .pc-dnone {
         display: block;
     }
@@ -184,15 +184,20 @@ header .select-wrap .icon_link_tab span{
     .title-wrap {
         width: 100%;
     }
+    #contents {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     #contents .songs {
         margin-top: 80%;
     }
     #contents .songs h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     #contents .songs h3 {
-        font-size: 1em;
+        font-size: .9em;
         letter-spacing: .5em;
-        line-height: 2em;
+        line-height: 1.8em;
     }
  }
