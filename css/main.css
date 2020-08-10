@@ -186,6 +186,9 @@ header .select-wrap .icon_link_tab span{
         width: 90%;
         font-size: .3em;
     }
+    h1 p.js-scroll {
+        display: none;
+    }
     .title-wrap {
         width: 100%;
     }

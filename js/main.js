@@ -36,3 +36,12 @@ jQuery(function($){
       jQuery('.fa-bars').css('display','block');
     });
 });
+
+// for SmartPhone
+$(window).on('load scroll', function(){
+  if ($(window).scrollTop() > 200) {
+    $('h1 p').addClass("js-scroll");
+   } else {
+    $('h1 p').removeClass("js-scroll");
+   }
+});
