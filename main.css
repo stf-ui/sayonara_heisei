@@ -172,7 +172,7 @@ header .select-wrap .icon_link_tab span{
 }
 
 /* 以下、スマホ用のデザイン */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     h1 p {
         display: none;
     }
