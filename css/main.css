@@ -170,3 +170,23 @@ header .select-wrap .icon_link_tab span{
     border-radius: 50px 0 0 0;
     opacity: .8;
 }
+
+/* 以下、スマホ用のデザイン */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h1 p {
+        display: none;
+    }
+    .title-wrap {
+        width: 100%;
+    }
+    #contents .songs {
+        margin-top: 50%;
+    }
+    #contents .songs h2 {
+        font-size: 2em;
+    }
+    #contents .songs h3 {
+        font-size: 1.5em;
+        letter-spacing: .5em;
+    }
+ }
