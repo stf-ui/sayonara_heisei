@@ -176,15 +176,14 @@ header .select-wrap .icon_link_tab span{
 /* 以下、スマホ用のデザイン */
 @media screen and (max-width: 767px) {
     body {
-        padding: 0;
-        margin: 0;
+        /* padding: 0;
+        margin: 0; */
     }
     .pc-dnone {
         display: block;
     }
     h1 p {
         width: 90%;
-        font-size: .3em;
     }
     h1 p.js-scroll {
         display: none;

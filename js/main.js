@@ -39,7 +39,7 @@ jQuery(function($){
 
 // for SmartPhone
 $(window).on('load scroll', function(){
-  if ($(window).scrollTop() > 200) {
+  if ($(window).scrollTop() > 100) {
     $('h1 p').addClass("js-scroll");
    } else {
     $('h1 p').removeClass("js-scroll");
