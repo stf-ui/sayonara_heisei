@@ -175,9 +175,9 @@ header .select-wrap .icon_link_tab span{
 
 /* 以下、スマホ用のデザイン */
 @media screen and (max-width: 768px) {
-    .pc-dnone {
+    /* .pc-dnone {
         display: block;
-    }
+    } */
     h1 p {
         display: none;
     }
@@ -191,7 +191,7 @@ header .select-wrap .icon_link_tab span{
         font-size: 1.5em;
     }
     #contents .songs h3 {
-        font-size: .8em;
+        font-size: 1em;
         letter-spacing: .5em;
     }
  }
