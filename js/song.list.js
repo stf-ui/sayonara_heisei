@@ -268,7 +268,7 @@ $(function(){
     h26Song.innerHTML = h26Songs[x26];
 
     // 2015年
-    h27Songs[0] = '<a href="<a href="https://youtu.be/gsVGf1T2Hfs" data-lity>Dragon Night / <br class="pc-dnone">SEKAI NO OWARI</a>';
+    h27Songs[0] = '<a href="https://youtu.be/gsVGf1T2Hfs" data-lity>Dragon Night / <br class="pc-dnone">SEKAI NO OWARI</a>';
     h27Songs[1] = '<a href="https://youtu.be/7gcCRAl58u4" data-lity>SUN / <br class="pc-dnone">星野源</a>';
     h27Songs[2] = '<a href="https://youtu.be/LIlZCmETvsY" data-lity>新宝島 / <br class="pc-dnone">サカナクション</a>';
     
