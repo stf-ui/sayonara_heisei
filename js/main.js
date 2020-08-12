@@ -17,9 +17,9 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// wavifyAnimation
+// jQuery
 jQuery(function($){
-    // コード
+    //波打つアニメーション（PCSP共通）
     jQuery('#waves').wavify({
         height: 100,
         bones: 4,
@@ -27,21 +27,40 @@ jQuery(function($){
         color: '#f0f8ff',
         speed: .25
     });
-    jQuery('#menu_link').click(function(){
-      jQuery('.icon_link_tab').addClass('open');
-      jQuery('.fa-bars').css('display','none');
+    // ナビゲーションバー（PCのみ）
+    var appear = false;
+    var sideAnimate = $('.js-side-animation');
+    var pagetop = $('.go-top');
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        if (appear == false) {
+          appear = true;
+          sideAnimate.stop().animate({
+            'right': '0px'
+          }, 500);
+        }
+      } else {
+        if (appear) {
+          appear = false;
+          sideAnimate.stop().animate({
+            'right': '-300px'
+          }, 500);
+        }
+      }
     });
-    jQuery('.close_btn').click(function(){
-      jQuery('.icon_link_tab').removeClass('open');
-      jQuery('.fa-bars').css('display','block');
+    pagetop.click(function () {
+      $('body, html').animate({ scrollTop: 0 }, 500);
+      return false;
     });
-});
+    // ページ内検索（PCのみ）
+    $('input#search').quicksearch('#contents .songs section');
 
-// for SmartPhone
-$(window).on('load scroll', function(){
-  if ($(window).scrollTop() > 100) {
-    $('h1 p').addClass("js-scroll");
-   } else {
-    $('h1 p').removeClass("js-scroll");
-   }
+    // for SmartPhone
+    $(window).on('load scroll', function(){
+      if ($(window).scrollTop() > 100) {
+        $('h1 p').addClass("js-spScroll");
+      } else {
+        $('h1 p').removeClass("js-spScroll");
+      }
+    });
 });
