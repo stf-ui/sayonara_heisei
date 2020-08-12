@@ -259,7 +259,7 @@ $(function(){
     h25Song.innerHTML = h25Songs[x25];
 
     // 2014年
-    h25Songs[0] = '<a href="https://youtu.be/rKsQ-3N-Bks" data-lity>ひまわりの約束 / <br class="pc-dnone">秦 基博</a>';
+    h26Songs[0] = '<a href="https://youtu.be/rKsQ-3N-Bks" data-lity>ひまわりの約束 / <br class="pc-dnone">秦 基博</a>';
     h26Songs[1] = '<a href="https://youtu.be/dFf4AgBNR1E" data-lity>恋するフォーチュンクッキー / <br class="pc-dnone">AKB48</a>';
     h26Songs[2] = '<a href="https://youtu.be/p-RLC9ZgjhY" data-lity>NIPPON / <br class="pc-dnone">椎名林檎</a>';
     
