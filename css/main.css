@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 共通CSS */
 .p-relative {
     position: relative;
@@ -417,12 +416,11 @@ header .select-wrap .icon_link_tab span{
         margin-top: 85%;
     }
     #contents .songs h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     #contents .songs h3 {
-        font-size: .9em;
+        font-size: .65em;
         letter-spacing: .5em;
-        line-height: 1.8em;
+        line-height: 1.5em;
     }
->>>>>>> ed4d9a26fe0e5e46521bb1b8511ad22e8b016f7c
  }
