@@ -17,6 +17,7 @@ body{
     font-family: 'Kosugi Maru', sans-serif;
     font-size: 100%;
     color: #fff;
+    /* position:absolute; top:0; left:0; */
 }
 body a {
     display: inline-block;
@@ -85,6 +86,67 @@ footer .logo-reverse {
     50% { transform:translateX(2px) }
     100% { transform:translateX(-2px) }
 }
+.bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.bubble {
+position: fixed;
+bottom: -40px;
+width: 40px;
+height: 40px;
+background-color: transparent;
+border: 1px solid #fff;
+border-radius: 50%;
+animation: bubble 10s ease-in infinite;
+opacity: .8;
+}
+.bubble:nth-child(1) {
+width: 15px;
+height: 15px;
+left: 30%;
+animation-duration: 10s;
+}
+.bubble:nth-child(2) {
+left: 20%;
+animation-duration: 7.5s;
+}
+.bubble:nth-child(3) {
+width: 30px;
+height: 30px;
+left: 30%;
+animation-duration: 11s;
+}
+.bubble:nth-child(4) {
+width: 50px;
+height: 50px;
+left: 67%;
+animation-duration: 10s;
+}
+    
+.bubble:nth-child(5) {
+width: 20px;
+height: 20px;
+left: 70%;
+animation-duration: 8.5s;
+}
+@keyframes bubble {
+    0% {
+    bottom: -100px;
+    transform: translateX(0);
+    }
+    50% {
+    transform: translateX(100px);
+    }
+    100% {
+    bottom: 1000px;
+    }
+}
 h1 p {
     position: absolute;
     width: 230px;
@@ -98,7 +160,7 @@ h1 p {
 }
 /* contents */
 #contents {
-    z-index: 2;
+    z-index: 3;
     position: relative;
     width: 90%;
     min-height: 950px;
@@ -115,7 +177,6 @@ h1 p {
 #contents .songs section{
     margin-top: 10px;
     margin-bottom: 10px;
-    cursor: pointer;
 }
 #contents .songs h2 {
     font-size: 1.5em;
@@ -123,6 +184,7 @@ h1 p {
 #contents .songs h3 {
     font-size: .9em;
     letter-spacing: .3em;
+    cursor: pointer;
 }
 #contents .songs section.sankou-site {
     margin-top: 40px;
@@ -132,36 +194,35 @@ h1 p {
 }
 .go-top {
     position: fixed;
-    /* bottom: 42%; */
     bottom: 50%;
     right: 0;
     width: 280px;
-    /* width: 210px; */
-    /* background: #ff00ff; */
-    background:#00ccc3;
     opacity: .8;
     padding: 5px;
     z-index: 200;
+    border-bottom: 1px solid #fff;
 }
 .go-top a {
    width: 100%;
-   letter-spacing: .5em;
+   letter-spacing: .6em;
+   width: 100%;
+   margin-bottom: -6px;
+   font-weight: bold;
+   font-size: .9em;
 }
-.go-top a:hover {
-    text-decoration: underline;
- }
-.side-seach {
+.side-search {
     position: fixed;
-    /* bottom: 50%; */
-    right: 0;
-    width: 280px;
-    background:#00ccc3;
-    opacity: .8;
-    padding: 5px;
-    z-index: 200;
-    letter-spacing: .5em;
+    width: 230px;
+    font-size: .4em;
+    letter-spacing: .3em;
+    left: 20px;
+    top: 333px;
+    font-weight: lighter;
+    font-family: none;
+    color: #fff;
+    z-index: 999 !important;
 }
-.side-seach input {
+.side-search input {
     width: 120px;
     border-radius: 20px;
     padding: 5px;
@@ -170,7 +231,7 @@ h1 p {
     text-align: center;
     display: inline-block;
 }
-.side-seach form {
+.side-search form {
     display: inline-block;
 }
 /* 以下、スマホ用のデザイン */
@@ -178,8 +239,10 @@ h1 p {
     .pc-dnone {
         display: block;
     }
-    .go-top,.side-seach {
-        display: none;
+    .go-top {
+        position: fixed;
+        bottom: 40px;
+        width: 90px;
     }
     h1 p {
         width: 90%;

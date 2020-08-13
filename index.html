@@ -23,6 +23,13 @@
                 <rect width="100%" height="100%"></rect>
             </g>
         </svg>
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
         <div class="scroll-grad">
             <div class="title-wrap">
                 <h1 class="p-relative">
@@ -31,6 +38,11 @@
                     あの日出会ったあの人のことを思い出しながらゆっくりお楽しみください。<br>
                     </p>
                 </h1>
+                <!-- <div class="p-relative side-search">
+                    <form action="#">
+                        <input type="text" name="search" value="" id="search" />
+                    </form>
+                </div> -->
             </div>
             <div id="contents">
                 <div class="songs">
@@ -164,14 +176,8 @@
                 </div>
             </div>
         </div>
-        <div>
-            <!-- <div class="go-top side-seach js-side-animation"> -->
-                <!-- <a href="#">GO TO</a> -->
-                <!-- <form action="#"><input placeholder="ex.1991" type="text" name="search" value="" id="search" /></form>
-            </div> -->
-            <div class="go-top js-side-animation">
-                <a href="#">PAGE TOP</a>
-            </div>
+        <div class="go-top js-side-animation" style="display: none;">
+            <a href="#">PAGE TOP</a>
         </div>
         <footer>
             <div class="p-relative">
@@ -181,6 +187,7 @@
         <!-- script読み込み -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
         <script src="./js/main.js"></script>
         <script src="./js/song.list.js"></script>
         <script src="./js/lity.js"></script>

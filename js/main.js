@@ -32,12 +32,13 @@ jQuery(function($){
     var sideAnimate = $('.js-side-animation');
     var pagetop = $('.go-top');
     $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
+      if ($(this).scrollTop() > 500) {
         if (appear == false) {
           appear = true;
           sideAnimate.stop().animate({
             'right': '0px'
           }, 500);
+          sideAnimate.css('display','block');
         }
       } else {
         if (appear) {
