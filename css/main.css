@@ -235,7 +235,7 @@ h1 p {
     display: inline-block;
 }
 /* 以下、スマホ用のデザイン */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .pc-dnone {
         display: block;
     }
@@ -265,7 +265,7 @@ h1 p {
         padding: 0;
     }
     #contents .songs {
-        margin-top: 85%;
+        margin-top: 80%;
     }
     #contents .songs h2 {
         font-size: 1em;

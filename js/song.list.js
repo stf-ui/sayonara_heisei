@@ -51,7 +51,7 @@ $(function(){
     h2Song.innerHTML = h2Songs[x2];
 
     // 1991年
-    h3Songs[0] = '<a href="https://youtu.be/nGl2la0Q6LA" data-lity>はじまりはいつも雨 / <br class="pc-dnone">ASKA</a>';
+    h3Songs[0] = '<a href="https://youtu.be/74IKR0WeKXY" data-lity>はじまりはいつも雨 / <br class="pc-dnone">ASKA</a>';
     h3Songs[1] = '<a href="https://youtu.be/Q9qAyt0G-jM" data-lity>SAY YES / <br class="pc-dnone">CHAGE and ASKA</a>';
     h3Songs[2] = '<a href="https://youtu.be/b88pxLpMZKk" data-lity>どんなときも。 / <br class="pc-dnone">槇原敬之</a>';
 
@@ -155,7 +155,7 @@ $(function(){
     h14Songs[0] = '<a href="https://youtu.be/7MEsNC-MdRE" data-lity>Fantasista / <br class="pc-dnone">Dragon Ash</a>';
     h14Songs[1] = '<a href="https://youtu.be/tuyZ9f6mHZk" data-lity>traveling / <br class="pc-dnone">宇多田ヒカル</a>';
     h14Songs[2] = '<a href="https://youtu.be/mq9dl6hw_yk" data-lity>楽園ベイベー / <br class="pc-dnone">RIP SLYME</a>';
-    h14Songs[2] = '<a href="https://youtu.be/03y-KyezDS4" data-lity>M / <br class="pc-dnone">浜崎あゆみ</a>';
+    h14Songs[3] = '<a href="https://youtu.be/03y-KyezDS4" data-lity>M / <br class="pc-dnone">浜崎あゆみ</a>';
     
     x14 = Math.floor(Math.random()*4);
     h14Song = document.getElementById("h14Song");
@@ -195,9 +195,9 @@ $(function(){
     h18Songs[0] = '<a href="https://youtu.be/zgLAWm68XVg" data-lity>何度でも / <br class="pc-dnone">DREAMS COME TRUE</a>';
     h18Songs[1] = '<a href="https://youtu.be/wHw6W4BznTM" data-lity>三日月 / <br class="pc-dnone">絢香</a>';
     h18Songs[2] = '<a href="https://youtu.be/-Uf5ZhHDKsE" data-lity>Salamander / <br class="pc-dnone">ELLEGARDEN</a>';
-    h18Songs[2] = '<a href="https://youtu.be/ZJVyorAFeqg" data-lity>BLUE BIRD / <br class="pc-dnone">浜崎あゆみ</a>';
+    h18Songs[3] = '<a href="https://youtu.be/ZJVyorAFeqg" data-lity>BLUE BIRD / <br class="pc-dnone">浜崎あゆみ</a>';
     
-    x18 = Math.floor(Math.random()*3);
+    x18 = Math.floor(Math.random()*4);
     h18Song = document.getElementById("h18Song");
     h18Song.innerHTML = h18Songs[x18];
 
