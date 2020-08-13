@@ -177,7 +177,7 @@ $(function(){
     h16Songs[1] = '<a href="https://youtu.be/cr8magEp0Ho" data-lity>リライト / <br class="pc-dnone">ASIAN KUNG-FU GENERATION</a>';
     h16Songs[2] = '<a href="https://youtu.be/gD2mhJ3ByGQ" data-lity>群青日和 / <br class="pc-dnone">東京事変</a>';
     
-    x16 = Math.floor(Math.random()*4);
+    x16 = Math.floor(Math.random()*3);
     h16Song = document.getElementById("h16Song");
     h16Song.innerHTML = h16Songs[x16];
 
