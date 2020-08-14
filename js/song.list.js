@@ -146,8 +146,9 @@ $(function(){
     h13Songs[0] = '<a href="https://youtu.be/fY1xN13G0pk" data-lity>サウダージ / <br class="pc-dnone">ポルノグラフィティ</a>';
     h13Songs[1] = '<a href="https://youtu.be/rpFUNMmKIlg" data-lity>if... / <br class="pc-dnone">DA PUMP</a>';
     h13Songs[2] = '<a href="https://youtu.be/j7CDb610Bg0" data-lity>天体観測 / <br class="pc-dnone">BUMP OF CHICKEN</a>';
+    h13Songs[3] = '<a href="https://youtu.be/qIoDWTF0qSo" data-lity>深い森 / <br class="pc-dnone">Do As Infinity</a>';
     
-    x13 = Math.floor(Math.random()*3);
+    x13 = Math.floor(Math.random()*4);
     h13Song = document.getElementById("h13Song");
     h13Song.innerHTML = h13Songs[x13];
 
@@ -176,8 +177,9 @@ $(function(){
     h16Songs[0] = '<a href="https://youtu.be/SC6fWmtzGf0" data-lity>スターゲイザー / <br class="pc-dnone">スピッツ</a>';
     h16Songs[1] = '<a href="https://youtu.be/cr8magEp0Ho" data-lity>リライト / <br class="pc-dnone">ASIAN KUNG-FU GENERATION</a>';
     h16Songs[2] = '<a href="https://youtu.be/gD2mhJ3ByGQ" data-lity>群青日和 / <br class="pc-dnone">東京事変</a>';
+    h16Songs[3] = '<a href="https://youtu.be/PRJoAPH0ZGo" data-lity>栄光の架橋 / <br class="pc-dnone">ゆず</a>';
     
-    x16 = Math.floor(Math.random()*3);
+    x16 = Math.floor(Math.random()*4);
     h16Song = document.getElementById("h16Song");
     h16Song.innerHTML = h16Songs[x16];
 
@@ -186,8 +188,9 @@ $(function(){
     h17Songs[1] = '<a href="https://youtu.be/rCNvayKkpYI" data-lity>New World / <br class="pc-dnone">L’Arc～en～Ciel</a>';
     h17Songs[2] = '<a href="https://youtu.be/ZGf0nJhMHbE" data-lity>Dreamland / <br class="pc-dnone">BENNIE K</a>';
     h17Songs[3] = '<a href="https://youtu.be/t6xdg6TKbyQ" data-lity>プラネタリウム / <br class="pc-dnone">大塚愛</a>';
+    h17Songs[4] = '<a href="https://youtu.be/mTdcxQZcQAE" data-lity>カルマ / <br class="pc-dnone">BUMP OF CHICKEN</a>';
     
-    x17 = Math.floor(Math.random()*4);
+    x17 = Math.floor(Math.random()*5);
     h17Song = document.getElementById("h17Song");
     h17Song.innerHTML = h17Songs[x17];
 
@@ -196,8 +199,9 @@ $(function(){
     h18Songs[1] = '<a href="https://youtu.be/wHw6W4BznTM" data-lity>三日月 / <br class="pc-dnone">絢香</a>';
     h18Songs[2] = '<a href="https://youtu.be/-Uf5ZhHDKsE" data-lity>Salamander / <br class="pc-dnone">ELLEGARDEN</a>';
     h18Songs[3] = '<a href="https://youtu.be/ZJVyorAFeqg" data-lity>BLUE BIRD / <br class="pc-dnone">浜崎あゆみ</a>';
+    h18Songs[4] = '<a href="https://youtu.be/1RnBDQJyQdI" data-lity>Around The World / <br class="pc-dnone">MONKEY MAJIK</a>';
     
-    x18 = Math.floor(Math.random()*4);
+    x18 = Math.floor(Math.random()*5);
     h18Song = document.getElementById("h18Song");
     h18Song.innerHTML = h18Songs[x18];
 
@@ -278,6 +282,7 @@ $(function(){
     h27Songs[0] = '<a href="https://youtu.be/gsVGf1T2Hfs" data-lity>Dragon Night / <br class="pc-dnone">SEKAI NO OWARI</a>';
     h27Songs[1] = '<a href="https://youtu.be/7gcCRAl58u4" data-lity>SUN / <br class="pc-dnone">星野源</a>';
     h27Songs[2] = '<a href="https://youtu.be/LIlZCmETvsY" data-lity>新宝島 / <br class="pc-dnone">サカナクション</a>';
+    h27Songs[2] = '<a href="https://youtu.be/Ae6gQmhaMn4" data-lity>私以外私じゃないの / <br class="pc-dnone">ゲスの極み乙女。</a>';
     
     x27 = Math.floor(Math.random()*3);
     h27Song = document.getElementById("h27Song");
@@ -287,8 +292,10 @@ $(function(){
     h28Songs[0] = '<a href="https://youtu.be/jhOVibLEDhA" data-lity>恋 / <br class="pc-dnone">星野源</a>';
     h28Songs[1] = '<a href="https://youtu.be/PDSkFeMVNFs" data-lity>前前前世 / <br class="pc-dnone">RADWIMPS</a>';
     h28Songs[2] = '<a href="https://youtu.be/DeGkiItB9d8" data-lity>サイレントマジョリティー / <br class="pc-dnone">欅坂46</a>';
+    h28Songs[3] = '<a href="https://youtu.be/Dx_fKPBPYUI" data-lity>LOSER / <br class="pc-dnone">米津玄師</a>';
+    h28Songs[4] = '<a href="https://youtu.be/q6T0wOMsNrI" data-lity>FLASH / <br class="pc-dnone">Perfume</a>';
 
-    x28 = Math.floor(Math.random()*3);
+    x28 = Math.floor(Math.random()*5);
     h28Song = document.getElementById("h28Song");
     h28Song.innerHTML = h28Songs[x28];
 
@@ -305,8 +312,9 @@ $(function(){
     h30Songs[0] = '<a href="https://youtu.be/EHw005ZqCXk" data-lity>ノーダウト / <br class="pc-dnone">Official髭男dism</a>';
     h30Songs[1] = '<a href="https://youtu.be/SX_ViT4Ra7k" data-lity>Lemon / <br class="pc-dnone">米津玄師</a>';
     h30Songs[2] = '<a href="https://youtu.be/sr--GVIoluU" data-lity>U.S.A. /<br class="pc-dnone">DA PUMP</a>';
+    h30Songs[3] = '<a href="https://youtu.be/T0valuAksuo" data-lity>パプリカ /<br class="pc-dnone">Foorin</a>';
     
-    x30 = Math.floor(Math.random()*3);
+    x30 = Math.floor(Math.random()*4);
     h30Song = document.getElementById("h30Song");
     h30Song.innerHTML = h30Songs[x30];
     
@@ -314,8 +322,9 @@ $(function(){
     h31Songs[0] = '<a href="https://youtu.be/ony539T074w" data-lity>白日 / <br class="pc-dnone">King Gnu</a>';
     h31Songs[1] = '<a href="https://youtu.be/0xSiBpUdW4E" data-lity>マリーゴールド / <br class="pc-dnone">あいみょん</a>';
     h31Songs[2] = '<a href="https://youtu.be/7940nuwCEYA" data-lity>まちがいさがし /<br class="pc-dnone">菅田将暉</a>';
+    h31Songs[3] = '<a href="https://youtu.be/lvEVP7NPklU" data-lity>留学生 /<br class="pc-dnone">MONKEY MAJIK × 岡崎体育</a>';
     
-    x31 = Math.floor(Math.random()*3);
+    x31 = Math.floor(Math.random()*4);
     h31Song = document.getElementById("h31Song");
     h31Song.innerHTML = h31Songs[x31];
 });
