@@ -312,7 +312,7 @@ $(function(){
     h30Songs[0] = '<a href="https://youtu.be/EHw005ZqCXk" data-lity>ノーダウト / <br class="pc-dnone">Official髭男dism</a>';
     h30Songs[1] = '<a href="https://youtu.be/SX_ViT4Ra7k" data-lity>Lemon / <br class="pc-dnone">米津玄師</a>';
     h30Songs[2] = '<a href="https://youtu.be/sr--GVIoluU" data-lity>U.S.A. /<br class="pc-dnone">DA PUMP</a>';
-    h30Songs[3] = '<a href="https://youtu.be/T0valuAksuo" data-lity>パプリカ /<br class="pc-dnone">Foorin</a>';
+    h30Songs[3] = '<a href="https://youtu.be/A_5wTaQKK6c" data-lity>あなた /<br class="pc-dnone">宇多田ヒカル</a>';
     
     x30 = Math.floor(Math.random()*4);
     h30Song = document.getElementById("h30Song");
