@@ -126,9 +126,9 @@ $(function(){
     h11Songs[0] = '<a href="https://youtu.be/8yHS-AEHijs" data-lity>Be cool!! / <br class="pc-dnone">野猿</a>';
     h11Songs[1] = '<a href="https://youtu.be/-9DxpPiE458" data-lity>Automatic / <br class="pc-dnone">宇多田ヒカル</a>';
     h11Songs[2] = '<a href="https://youtu.be/Vxmxpbn0pwA" data-lity>アポロ / <br class="pc-dnone">ポルノグラフィティ</a>';
-    h11Songs[2] = '<a href="https://youtu.be/wp2U40KI63A" data-lity>カブトムシ / <br class="pc-dnone">aiko</a>';
+    h11Songs[3] = '<a href="https://youtu.be/wp2U40KI63A" data-lity>カブトムシ / <br class="pc-dnone">aiko</a>';
     
-    x11 = Math.floor(Math.random()*3);
+    x11 = Math.floor(Math.random()*4);
     h11Song = document.getElementById("h11Song");
     h11Song.innerHTML = h11Songs[x11];
 
@@ -136,9 +136,9 @@ $(function(){
     h12Songs[0] = '<a href="https://youtu.be/iyw6-KVmgow" data-lity>月光 / <br class="pc-dnone">鬼束ちひろ</a>';
     h12Songs[1] = '<a href="https://youtu.be/AuZSyBa6phU" data-lity>SEASONS / <br class="pc-dnone">浜崎あゆみ</a>';
     h12Songs[2] = '<a href="https://youtu.be/v2SlpjCz7uE" data-lity>地上の星 / <br class="pc-dnone">中島みゆき</a>';
-    h12Songs[2] = '<a href="https://youtu.be/zldBTSx9JpE" data-lity>ギブス / <br class="pc-dnone">椎名林檎</a>';
+    h12Songs[3] = '<a href="https://youtu.be/zldBTSx9JpE" data-lity>ギブス / <br class="pc-dnone">椎名林檎</a>';
     
-    x12 = Math.floor(Math.random()*3);
+    x12 = Math.floor(Math.random()*4);
     h12Song = document.getElementById("h12Song");
     h12Song.innerHTML = h12Songs[x12];
 
@@ -282,9 +282,9 @@ $(function(){
     h27Songs[0] = '<a href="https://youtu.be/gsVGf1T2Hfs" data-lity>Dragon Night / <br class="pc-dnone">SEKAI NO OWARI</a>';
     h27Songs[1] = '<a href="https://youtu.be/7gcCRAl58u4" data-lity>SUN / <br class="pc-dnone">星野源</a>';
     h27Songs[2] = '<a href="https://youtu.be/LIlZCmETvsY" data-lity>新宝島 / <br class="pc-dnone">サカナクション</a>';
-    h27Songs[2] = '<a href="https://youtu.be/Ae6gQmhaMn4" data-lity>私以外私じゃないの / <br class="pc-dnone">ゲスの極み乙女。</a>';
+    h27Songs[3] = '<a href="https://youtu.be/Ae6gQmhaMn4" data-lity>私以外私じゃないの / <br class="pc-dnone">ゲスの極み乙女。</a>';
     
-    x27 = Math.floor(Math.random()*3);
+    x27 = Math.floor(Math.random()*4);
     h27Song = document.getElementById("h27Song");
     h27Song.innerHTML = h27Songs[x27];
 
